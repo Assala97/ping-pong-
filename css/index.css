@@ -1,0 +1,67 @@
+.container{
+
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-left: 20px;
+}
+
+button{
+    width: 171px;
+    margin: 6px;
+    height: 35px;
+    border-radius: 2em !important;
+    background: linear-gradient(#4ca1ff,#cc8fcb);
+    border: lightskyblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.main_game {
+    display: none;
+}
+#terrain {
+    position: absolute;
+}
+.control_button{
+    float: right;
+    display: grid;
+}
+.menu {
+    display:block;
+    border: 2px solid;
+    border-radius: 3em;
+    padding: 40px !important;
+    background: linear-gradient(#c97dd5,#a1e3f8);
+}
+#bigdiv {
+    text-align: center;
+}
+
+div:nth-child(2) {
+}
+
+#logo-racket {
+    width: 60px;
+    height: 60px;
+}
+
+#ping-title {
+    text-align: center;
+    background: linear-gradient(#5c8dab,#f6ccff);
+    border-radius: 3em;
+    margin-bottom: 40px;
+}
+
+#nb_player_radio {
+    margin: 30px;
+}
+
+._2player{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
